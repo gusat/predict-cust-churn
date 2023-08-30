@@ -51,11 +51,6 @@ The `churn_library.py` module is a collection of utility functions that facilita
 Refer to the individual function documentation in the `churn_library.py` module for more details on their usage.
 
 ---
-
-Absolutely, including a section about how to run the files is crucial. Here's how you can add the "Running Files" section to your `README.md`:
-
----
-
 ## Running Files
 
 ### Notebook
@@ -86,7 +81,7 @@ To run the tests for the `churn_library.py` module using `pytest`, follow these 
    pytest test_churn_lib.py
    ```
 
-   The tests will automatically discover and run the test functions, providing you with the test results.
+   The tests will automatically discover and run the test functions, providing you with the test results as green "." (passed) or red "F".
 
 ---
 
