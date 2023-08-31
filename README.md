@@ -2,9 +2,68 @@
 
 - Project **Predict Customer Churn** of ML DevOps Engineer Nanodegree Udacity
 
----
+This project aims to develop a churn prediction model using machine learning techniques. It includes utility functions for data preprocessing, visualization, model evaluation, and more.
 
-# Churn Prediction Notebook and Library
+## Project Structure
+
+The project files are organized as follows:
+
+```
+churn_project/
+│   README.md
+│   churn_library.py
+│   churn_nbk.ipynb
+│   test_churn_lib.py
+│
+├── data/
+│   │   bank_data.csv
+│
+├── logs/
+│   │   churn_script.log
+│
+├── models/
+│   │   (Generated pkl files to storel/load ML models)
+│
+└── .gitignore
+```
+
+## Usage
+
+### `churn_library.py`
+
+This module contains utility functions to facilitate various steps of the churn prediction process. To use it, you can import the functions in your own scripts or notebooks.
+
+### `churn_nbk.ipynb`
+
+This Jupyter Notebook contains the main analysis and modeling process. It imports functions from `churn_library.py` and demonstrates how to preprocess data, train models, and evaluate performance.
+
+### `test_churn_lib.py`
+
+This module contains test cases for the functions in `churn_library.py`. You can run the tests using the `pytest` command.
+
+## Running Files
+
+To run the `churn_nbk.ipynb` notebook, make sure you have Jupyter Notebook installed. You can then open the notebook and execute each cell to follow the analysis and modeling process.
+
+To run the tests in `test_churn_lib.py`, ensure you have the `pytest` testing framework installed. In your terminal, navigate to the project directory and run the following command:
+
+```
+pytest test_churn_lib.py
+```
+
+Make sure that the required dataset `bank_data.csv` is placed in the `data/` directory.
+
+## Author
+
+- Mitch Gusat
+
+## Date
+
+- 31.08.2023
+```
+
+
+# Details: Churn Prediction Notebook and Library
 
 This repository contains a Jupyter notebook `churn_nbk.ipynb` that demonstrates the process of churn prediction using machine learning. Additionally, it provides a Python library `churn_library.py` that contains various utility functions for data preprocessing, model training, and evaluation.
 
@@ -51,6 +110,7 @@ The `churn_library.py` module is a collection of utility functions that facilita
 Refer to the individual function documentation in the `churn_library.py` module for more details on their usage.
 
 ---
+
 ## Running Files
 
 ### Notebook
@@ -81,10 +141,7 @@ To run the tests for the `churn_library.py` module using `pytest`, follow these 
    pytest test_churn_lib.py
    ```
 
-   The tests will automatically discover and run the test functions, providing you with the test results as green "." (passed) or red "F".
+   The tests will automatically discover and run the test functions, providing you with the test results.
 
 ---
-
-
-
-
+MIT License
