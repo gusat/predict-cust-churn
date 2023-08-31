@@ -29,26 +29,26 @@ churn_project/
 
 ## Usage (use the last version)
 
-### `churn_library.py`
+### `churn_library_v15.py`
 
 This module contains utility functions to facilitate various steps of the churn prediction process. To use it, you can import the functions in your own scripts or notebooks.
 
-### `churn_nbk.ipynb`
+### `churn_nbk_v15.ipynb`
 
 This Jupyter Notebook contains the main analysis and modeling process. It imports functions from `churn_library.py` and demonstrates how to preprocess data, train models, and evaluate performance.
 
-### `test_churn_lib.py`
+### `test_churn_lib_v15.py`
 
 This module contains test cases for the functions in `churn_library.py`. You can run the tests using the `pytest` command.
 
 ## Running Files
 
-To run the `churn_nbk.ipynb` notebook, make sure you have Jupyter Notebook installed. You can then open the notebook and execute each cell to follow the analysis and modeling process.
+To run the `churn_nbk_v15.ipynb` notebook, make sure you have Jupyter Notebook installed. You can then open the notebook and execute each cell to follow the analysis and modeling process.
 
-To run the tests in `test_churn_lib.py`, ensure you have the `pytest` testing framework installed. In your terminal, navigate to the project directory and run the following command:
+To run the tests in `test_churn_lib_v15.py`, ensure you have the `pytest` testing framework installed. In your terminal, navigate to the project directory and run the following command:
 
 ```
-pytest test_churn_lib.py
+pytest test_churn_lib_v15.py
 ```
 
 Make sure that the required dataset `bank_data.csv` is placed in the `data/` directory.
@@ -67,7 +67,7 @@ This repository contains a Jupyter notebook `churn_nbk.ipynb` that demonstrates 
 
 ## Notebook Usage
 
-The main notebook `churn_nbk.ipynb` showcases the process of churn prediction using a dataset. The following libraries are used in the notebook:
+The main notebook `churn_nbk_v15.ipynb` showcases the process of churn prediction using a dataset. The following libraries are used in the notebook:
 
 - shap
 - joblib
@@ -83,15 +83,15 @@ To run the notebook, ensure you have these libraries installed in your environme
 
 ## Testing
 
-The `test_churn_lib.py` file contains test cases for the functions in the `churn_library.py` module. It uses the `pytest` framework to automate the testing process. To run the tests, use the following command:
+The `test_churn_lib_v15.py` file contains test cases for the functions in the `churn_library.py` module. It uses the `pytest` framework to automate the testing process. To run the tests, use the following command:
 
 ```bash
-pytest test_churn_lib.py
+pytest test_churn_lib_v15.py
 ```
 
 ## Churn Library
 
-The `churn_library.py` module is a collection of utility functions that facilitate various steps of the churn prediction process. The functions include:
+The `churn_library_v15.py` module is a collection of utility functions that facilitate various steps of the churn prediction process. The functions include:
 
 - `import_data(pth)`: Import the dataset from the given path.
 - `plot_univar_quant(data, column)`: Generate a univariate quantitative plot.
@@ -105,7 +105,7 @@ The `churn_library.py` module is a collection of utility functions that facilita
 - `choose_predictors(data)`: Choose predictor columns for modeling.
 - `train_fit_models(X, y)`: Train and fit machine learning models.
 
-Refer to the individual function documentation in the `churn_library.py` module for more details on their usage.
+Refer to the individual function documentation in the `churn_library_v15.py` module for more details on their usage.
 
 ---
 
@@ -113,11 +113,11 @@ Refer to the individual function documentation in the `churn_library.py` module 
 
 ### Notebook
 
-To run the main notebook `churn_nbk.ipynb`, follow these steps:
+To run the main notebook `churn_nbk_v15.ipynb`, follow these steps:
 
 1. Make sure you have Jupyter Notebook installed in your Python environment.
 2. Open a terminal or command prompt.
-3. Navigate to the directory containing `churn_nbk.ipynb`.
+3. Navigate to the directory containing `churn_nbk_v15.ipynb`.
 4. Run the following command to start Jupyter Notebook:
    
    ```bash
@@ -129,14 +129,14 @@ To run the main notebook `churn_nbk.ipynb`, follow these steps:
 
 ### Testing
 
-To run the tests for the `churn_library.py` module using `pytest`, follow these steps:
+To run the tests for the `churn_library_v15.py` module using `pytest`, follow these steps:
 
 1. Open a terminal or command prompt.
-2. Navigate to the directory containing `test_churn_lib.py`.
+2. Navigate to the directory containing `test_churn_lib_v15.py`.
 3. Run the following command to execute the tests:
    
    ```bash
-   pytest test_churn_lib.py
+   pytest test_churn_lib_v15.py
    ```
 
    The tests will automatically discover and run the test functions, providing you with the test results.
