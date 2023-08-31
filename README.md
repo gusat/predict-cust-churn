@@ -27,7 +27,7 @@ churn_project/
 └── .gitignore
 ```
 
-## Usage (use the last version)
+## Usage (tested on VSC with python311)
 
 ### `churn_library_v15.py`
 
@@ -107,6 +107,12 @@ The `churn_library_v15.py` module is a collection of utility functions that faci
 
 Refer to the individual function documentation in the `churn_library_v15.py` module for more details on their usage.
 
+Example run
+C:.../Python311/python.exe c:/Users/970986848/Documents/U/Clean-Code/churn_library_v15.py  
+Categorical Columns: ['Gender', 'Education_Level', 'Marital_Status', 'Income_Category', 'Card_Category']
+Quantitative Columns: ['Customer_Age', 'Dependent_count', 'Months_on_book', 'Total_Relationship_Count', 'Months_Inactive_12_mon', 'Contacts_Count_12_mon', 'Credit_Limit', 'Total_Revolving_Bal', 'Avg_Open_To_Buy', 'Total_Amt_Chng_Q4_Q1', 'Total_Trans_Amt', 'Total_Trans_Ct', 'Total_Ct_Chng_Q4_Q1', 'Avg_Utilization_Ratio']
+Project run completed.
+PS C:\...\U\Clean-Code> 
 ---
 
 ## Running Files
