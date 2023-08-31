@@ -11,9 +11,9 @@ The project files are organized as follows:
 ```
 churn_project/
 │   README.md
-│   churn_library.py
-│   churn_nbk.ipynb
-│   test_churn_lib.py
+│   churn_library_v15.py
+│   churn_nbk_v15.ipynb
+│   test_churn_lib_v15.py
 │
 ├── data/
 │   │   bank_data.csv
@@ -27,7 +27,7 @@ churn_project/
 └── .gitignore
 ```
 
-## Usage
+## Usage (use the last version)
 
 ### `churn_library.py`
 
@@ -61,8 +61,6 @@ Make sure that the required dataset `bank_data.csv` is placed in the `data/` dir
 
 - 31.08.2023
 ```
-
-
 # Details: Churn Prediction Notebook and Library
 
 This repository contains a Jupyter notebook `churn_nbk.ipynb` that demonstrates the process of churn prediction using machine learning. Additionally, it provides a Python library `churn_library.py` that contains various utility functions for data preprocessing, model training, and evaluation.
